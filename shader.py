@@ -26,7 +26,7 @@ out vec4 FragColor;
 void main()
 {
     FragColor = vec4(PixelColor, 1.0);
-}
+}   
 """
 
 def compile_shader(shader_type, source):

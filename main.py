@@ -69,7 +69,7 @@ def main():
         glClear(GL_COLOR_BUFFER_BIT)
         glUseProgram(shader_program)
         glBindVertexArray(VAO)
-        
+
         rows, cols = config.GRID_SIZE  
         total_pixels = rows * cols
 
